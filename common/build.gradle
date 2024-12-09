@@ -8,16 +8,16 @@ dependencies {
     api 'net.william278:minedown:1.8.2'
     api 'net.william278:paginedown:1.1.2'
     api 'net.william278:DesertWell:2.0.4'
-    api 'net.william278.cloplib:cloplib-common:1.0.10'
+    api 'net.william278.cloplib:cloplib-common:1.0.12'
     api 'com.google.code.gson:gson:2.11.0'
     api 'com.github.Exlll.ConfigLib:configlib-yaml:v4.5.0'
-    api('com.zaxxer:HikariCP:6.0.0') {
+    api('com.zaxxer:HikariCP:6.2.1') {
         exclude module: 'slf4j-api'
     }
 
     compileOnly 'net.kyori:adventure-api:4.17.0'
     compileOnly 'net.kyori:adventure-platform-api:4.3.4'
-    compileOnly 'org.jetbrains:annotations:25.0.0'
+    compileOnly 'org.jetbrains:annotations:26.0.1'
     compileOnly 'com.google.guava:guava:33.3.1-jre'
     compileOnly 'org.projectlombok:lombok:1.18.34'
 
@@ -33,7 +33,7 @@ dependencies {
 
     testImplementation 'com.github.plan-player-analytics:Plan:5.5.2150'
     testImplementation 'com.google.guava:guava:33.3.1-jre'
-    testCompileOnly 'org.jetbrains:annotations:25.0.0'
+    testCompileOnly 'org.jetbrains:annotations:26.0.1'
 
     annotationProcessor 'org.projectlombok:lombok:1.18.34'
 }
