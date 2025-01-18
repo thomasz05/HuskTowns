@@ -37,7 +37,7 @@ public abstract class MapHook extends Hook {
 
     public abstract void removeClaimMarker(@NotNull TownClaim claim, @NotNull World world);
 
-    public final void removeClaimMarkers(@NotNull Town town) {
+    public void removeClaimMarkers(@NotNull Town town) {
         plugin.getWorlds().forEach(world -> plugin.getClaimWorld(world).ifPresent(
             claimWorld -> removeClaimMarkers(claimWorld.getTownClaims(town.getId(), plugin), world)
         ));
