@@ -3,23 +3,23 @@ plugins {
 }
 
 dependencies {
-    api 'commons-io:commons-io:2.17.0'
-    api 'org.apache.commons:commons-text:1.12.0'
+    api 'commons-io:commons-io:2.18.0'
+    api 'org.apache.commons:commons-text:1.13.0'
     api 'net.william278:minedown:1.8.2'
     api 'net.william278:paginedown:1.1.2'
     api 'net.william278:DesertWell:2.0.4'
-    api 'net.william278.cloplib:cloplib-common:1.0.12'
-    api 'com.google.code.gson:gson:2.11.0'
+    api 'net.william278.cloplib:cloplib-common:2.0'
+    api 'com.google.code.gson:gson:2.12.1'
     api 'com.github.Exlll.ConfigLib:configlib-yaml:v4.5.0'
     api('com.zaxxer:HikariCP:6.2.1') {
         exclude module: 'slf4j-api'
     }
 
-    compileOnly 'net.kyori:adventure-api:4.17.0'
+    compileOnly 'net.kyori:adventure-api:4.18.0'
     compileOnly 'net.kyori:adventure-platform-api:4.3.4'
-    compileOnly 'org.jetbrains:annotations:26.0.1'
-    compileOnly 'com.google.guava:guava:33.3.1-jre'
-    compileOnly 'org.projectlombok:lombok:1.18.34'
+    compileOnly 'org.jetbrains:annotations:26.0.2'
+    compileOnly 'com.google.guava:guava:33.4.0-jre'
+    compileOnly 'org.projectlombok:lombok:1.18.36'
 
     compileOnly "org.xerial:sqlite-jdbc:$sqlite_driver_version"
     compileOnly "com.mysql:mysql-connector-j:$mysql_driver_version"
@@ -32,8 +32,8 @@ dependencies {
     compileOnly 'com.sk89q.worldguard:worldguard-core:7.0.9-SNAPSHOT'
 
     testImplementation 'com.github.plan-player-analytics:Plan:5.5.2150'
-    testImplementation 'com.google.guava:guava:33.3.1-jre'
-    testCompileOnly 'org.jetbrains:annotations:26.0.1'
+    testImplementation 'com.google.guava:guava:33.4.0-jre'
+    testCompileOnly 'org.jetbrains:annotations:26.0.2'
 
-    annotationProcessor 'org.projectlombok:lombok:1.18.34'
+    annotationProcessor 'org.projectlombok:lombok:1.18.36'
 }

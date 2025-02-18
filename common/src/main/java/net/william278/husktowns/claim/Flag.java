@@ -180,7 +180,9 @@ public class Flag implements Comparable<Flag> {
                 OperationType.PLAYER_DAMAGE_PERSISTENT_ENTITY,
                 OperationType.PLAYER_DAMAGE_ENTITY,
                 OperationType.ENDER_PEARL_TELEPORT,
-                OperationType.START_RAID
+                OperationType.START_RAID,
+                OperationType.PLACE_VEHICLE,
+                OperationType.BREAK_VEHICLE
         ),
         PUBLIC_CONTAINER_ACCESS(
                 OperationType.CONTAINER_OPEN
@@ -190,7 +192,9 @@ public class Flag implements Comparable<Flag> {
                 OperationType.FARM_BLOCK_BREAK,
                 OperationType.FARM_BLOCK_PLACE,
                 OperationType.FARM_BLOCK_INTERACT,
-                OperationType.PLAYER_DAMAGE_ENTITY
+                OperationType.PLAYER_DAMAGE_ENTITY,
+                OperationType.PLACE_VEHICLE,
+                OperationType.BREAK_VEHICLE
         ),
         PUBLIC_INTERACT_ACCESS(
                 OperationType.BLOCK_INTERACT,
