@@ -61,6 +61,7 @@ shadowJar {
     relocate 'space.arim', 'net.william278.husktowns.libraries.paperlib'
     relocate 'me.lucko', 'net.william278.husktowns.libraries'
     relocate 'net.roxeez', 'net.william278.husktowns.libraries'
+    relocate 'net.kyori', 'net.william278.husktowns.libraries'
 
     minimize()
 }
